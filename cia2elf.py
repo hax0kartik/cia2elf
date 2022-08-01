@@ -26,8 +26,7 @@ def CheckAndDownloadSeeddb():
 
 
 if len(sys.argv) != 2:
-    print("{} filename".format(sys.argv[0]))
-    exit(-1)
+    sys.exit("{} filename".format(sys.argv[0]))
 
 CheckAndDownloadSeeddb()
 
